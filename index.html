@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <div>
+            <h4 class="nav-heading">Library System</h4>
+        </div>
+        <div>
+            <ul class="nav-items-container">
+                <li><a href="#books">Books</a></li>
+                <li><a href="#registerForm">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-container">
+        <div id="books" class="books-container">
+            <h3 class="books-heading">Books</h3>
+            <table class="books-table" border="1" cellpadding="15" >
+                <thead>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="#" class="book-link">The Call of the Wild</a>
+                            <table border="1" class="sub-table" >
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2004</td>
+                                    </tr>
+                                    <tr> <td>Page Count: 850</td>
+                                       </tr>
+                                       <tr> <td>ISBN: 123-7889553352</td>
+                                       </tr>
+                                </tbody>
+                            </table>
+                            
+                        </td>
+                        <td>Jack London</td>
+                        <td>Adventure</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="#" class="book-link">To Kill a Mockingbird</a>
+                            <table border="1" class="sub-table" >
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2005</td>
+                                    </tr>
+                                    <tr> <td>Page Count: 200</td>
+                                       </tr>
+                                       <tr> <td>ISBN: 123-454680456</td>
+                                       </tr>
+                                </tbody>
+                            </table>
+                            
+                        </td>
+                        <td>Harper LEE</td>
+                        <td>Classic</td>
+                        <td>Not Available</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="#" class="book-link">The Walking Dead</a>
+                            <table border="1" class="sub-table" >
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2010</td>
+                                    </tr>
+                                    <tr> <td>Page Count: 250</td>
+                                       </tr>
+                                       <tr> <td>ISBN: 123-5588766546</td>
+                                       </tr>
+                                </tbody>
+                            </table>
+                            
+                        </td>
+                        <td>Tony Moore</td>
+                        <td>Comic</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="#" class="book-link">Rich Dad Poor Dad</a>
+                            <table border="1" class="sub-table" >
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2000</td>
+                                    </tr>
+                                    <tr> <td>Page Count: 400</td>
+                                       </tr>
+                                       <tr> <td>ISBN: 123-546897123</td>
+                                       </tr>
+                                </tbody>
+                            </table>
+                            
+                        </td>
+                        <td>Robert Kiyosaki</td>
+                        <td>Personal finance</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <a href="#" class="book-link">The Secret</a>
+                            <table border="1" class="sub-table" >
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2006</td>
+                                    </tr>
+                                    <tr> <td>Page Count: 350</td>
+                                       </tr>
+                                       <tr> <td>ISBN: 123-458789554</td>
+                                       </tr>
+                                </tbody>
+                            </table>
+                            
+                        </td>
+                        <td>Rhonda Byme</td>
+                        <td>Self-help</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="registerForm" class="register-container">
+            <h3>Register</h3>
+            <form>
+                <div>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" required >
+                </div>
+                <div>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" min="5" max="100" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div>
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required>
+                </div>
+                <div>
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

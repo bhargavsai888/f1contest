@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin: 0px;
+    position:sticky;
+    top: 0;
+}
+.nav-heading{
+    color:white;
+}
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.nav-items-container li{
+    margin: 0px 10px;
+}
+
+.nav-items-container li a{
+    color: white;
+    text-decoration: none;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #e3e1e1;
+}
+
+.books-container,.register-container{
+    padding: 20px;
+    width: 550px;
+    background-color: white;
+    border-radius: 7;
+    margin-bottom: 30px;
+}
+.books-heading{
+    margin-bottom: 10px;
+}
+
+.books-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: left;
+    padding: 5px;
+}
+.sub-table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px;
+}
+
+form div input{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+
+form div label{
+    margin-bottom: 7px;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+}
+
+
+
